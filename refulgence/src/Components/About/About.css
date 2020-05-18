@@ -1,0 +1,13 @@
+.about-background-container{ 
+    background: url(../../images/about.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100vw;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    height: 120vh;
+  }
+  

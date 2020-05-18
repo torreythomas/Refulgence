@@ -1,0 +1,188 @@
+.background {
+        background: url(../../../../images/white.jpeg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+
+.think-beyond {
+    color: rgb(91,97,183);
+    font-weight: light;
+}
+
+.fab {
+    font-size: 4em;
+}
+
+.jt-container {
+    margin-top: 150px;
+    color: white;
+}
+
+.jt-col {
+    background-color: #1a1a1a;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+}
+
+.fa-arrow-circle-right {
+    margin: 10px;
+    padding: 2px;
+}
+
+.FC-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-message-container {
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+      
+    background:
+      linear-gradient(to right, rgb(91,97,183) 2px, transparent 2px) 0 0,
+      linear-gradient(to right, rgb(91,97,183) 2px, transparent 2px) 0 100%,
+      linear-gradient(to left, rgb(91,97,183) 2px, transparent 2px) 100% 0,
+      linear-gradient(to left, rgb(91,97,183) 2px, transparent 2px) 100% 100%,
+      linear-gradient(to bottom, rgb(91,97,183) 2px, transparent 2px) 0 0,
+      linear-gradient(to bottom, rgb(91,97,183) 2px, transparent 2px) 100% 0,
+      linear-gradient(to top, rgb(91,97,183) 2px, transparent 2px) 0 100%,
+      linear-gradient(to top, rgb(91,97,183) 2px, transparent 2px) 100% 100%;
+  
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+
+}
+
+
+
+
+
+.about-logo {
+    width: 20vw;
+}
+
+.about-container-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+.about-desc-text {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.about-emphasis {
+    color: rgb(91,97,183);
+    margin-right: 3px;
+}
+
+.about-emphasis-two {
+    color: rgb(0,219,234);
+}
+
+.about-message-container{
+    margin-top: 340px;
+}
+
+
+
+.hero-message-container-about-FC {
+    color: black;
+    width: 50vw;
+    height: 60vh;
+    margin-left: 9.5vw;
+    padding: 6vh;
+       animation: anim-glow 2s ease infinite;
+}
+
+
+
+.sub-slogan-about-FC{
+    font-family: 'Playfair Display', serif;
+    font-size: 2 em;
+    color: rgb(91,97,183)
+  }
+  
+  .slogan-about-FC{
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+    border-bottom: 2px solid rgb(0,219,234);
+    width: 37vw;
+    padding: 2px;
+  }
+  
+ 
+    
+    .about-text-FC {
+        line-height: 2em;
+        text-align: left;
+    }
+
+   
+
+    .container-pushed-left-FC {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 4px;
+    }
+
+    
+
+
+    .HM {
+        margin-top: 80px;
+        margin-left: -2px;
+    }
+
+
+    .row-FC{
+        display: flex;
+        
+    }
+
+    .fc-about-col-main{
+        background: url(../../../../images/art.jpeg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+       
+    }
+
+    .fc-about-col {
+        background: url(../../../../images/happy.jpeg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }  
+    
+    .fc-about-col-2 {
+        background: url(../../../../images/aesthetics.jpeg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }

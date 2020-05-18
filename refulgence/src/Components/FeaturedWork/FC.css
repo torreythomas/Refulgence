@@ -1,0 +1,211 @@
+.col {
+    margin: 20px;
+    height: 50vh;
+    margin-top: 60px;
+}
+
+.icon-col {
+    margin: 20px;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+
+.col-sm-10 {
+    height: 529.97px;
+    margin-top: -10px;  
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* background: url(../../images/refulgencebackground.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+iframe:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.AF {
+  background: url(../../images/passion.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.AF2 {
+    background: url(../../images/books.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.AF3 {
+    background: url(../../images/read.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.AF4 {
+    background: url(../../images/express.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.col-sm-6 {
+    text-align: left;
+    margin: 0px;
+}
+
+hr {
+    width: 7%;
+    text-align: left;
+    padding: 0;
+    margin-left:0;
+    margin-top: -40px;
+    color: black;
+    border: 1px solid black;
+}
+
+.fc-sm { 
+    text-align: center;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.icon-f-c{
+    text-align: center;
+    width: 70vw;
+    height: 30vh;
+    margin: 100px;
+    border-bottom: 1px solid rgb(146, 143, 143)
+}
+
+
+.fa-th {
+color: black;
+font-size: 2em;
+margin: 20px;
+padding: 10px;
+}
+
+
+
+.all-resources-FC {
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.all-resources-FC:hover {
+    animation: neonGlow2 1s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);;
+  }
+  
+  @keyframes neonGlow2 {
+  0% {
+    text-shadow: 0 0 10px rgba(255,255,255,.8),
+                 0 0 20px rgba(255,255,255,.8),
+                 0 0 22px  rgba(255,255,255,.8),
+                 0 0 40px  rgba(231, 235, 27, 0.8),
+                 0 0 60px  rgba(231, 235, 27, 0.8),
+                 0 0 80px  rgba(66,220,219,.5),
+                 0 0 100px rgba(66,220,219,.5),
+                 0 0 140px rgba(66,220,219,.5),
+                 0 0 200px yellow;
+  }
+  100% {
+    text-shadow: 0 0 2px rgba(255,255,255,.8),
+                 0 0 8px rgba(255,255,255,.8),
+                 0 0 10px rgba(255,255,255,.8),
+                 0 0 20px rgba(231, 235, 27, 0.8),
+                 0 0 30px rgba(231, 235, 27, 0.8),
+                 0 0 40px rgba(231, 235, 27, 0.8),
+                 0 0 50px  yellow,
+                 0 0 80px  rgb(255, 255, 4);
+  }
+}
+
+
+
+
+
+.think-beyond {
+    color: rgb(91,97,183);
+    font-weight: light;
+}
+
+.fab {
+    font-size: 4em;
+}
+
+.jt-container {
+    margin-top: 150px;
+    color: black;
+}
+
+.jt-col {
+    background: url(../../Hatchful/logo.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: stretch;
+    border: 1px solid black;
+    height: 30vh;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+}
+
+.fa-arrow-circle-right {
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.jt-col p,h3 {
+    background-color: rgba(0,0,0,0.7);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 6%;
+}

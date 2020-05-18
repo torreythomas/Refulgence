@@ -1,0 +1,12 @@
+.home { 
+  background: url(../../images/home.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100vw;
+  margin: 0;
+  padding: 10px;
+  height: 120vh;
+}
+

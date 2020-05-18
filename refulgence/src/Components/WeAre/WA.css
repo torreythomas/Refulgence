@@ -1,0 +1,141 @@
+.WA-message-container {
+    width: 75vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+      
+    background:
+      linear-gradient(to right, rgb(91,97,183) 2px, transparent 2px) 0 0,
+      linear-gradient(to right, rgb(91,97,183) 2px, transparent 2px) 0 100%,
+      linear-gradient(to left, rgb(91,97,183) 2px, transparent 2px) 100% 0,
+      linear-gradient(to left, rgb(91,97,183) 2px, transparent 2px) 100% 100%,
+      linear-gradient(to bottom, rgb(91,97,183) 2px, transparent 2px) 0 0,
+      linear-gradient(to bottom, rgb(91,97,183) 2px, transparent 2px) 100% 0,
+      linear-gradient(to top, rgb(91,97,183) 2px, transparent 2px) 0 100%,
+      linear-gradient(to top, rgb(91,97,183) 2px, transparent 2px) 100% 100%;
+  
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+
+}
+
+.WA-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.WA-message-container {
+    transform: scale(1);
+    transition: ease-in;
+	animation: pulse 2s infinite;
+}
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		
+	}
+
+	70% {
+		transform: scale(1);
+
+	}
+
+	100% {
+		transform: scale(0.95);
+
+	}
+}
+
+
+
+
+
+.container-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+.desc-text {
+    padding: 20px;
+}
+
+
+
+.MyButtons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-link-button {
+    border: 1px solid rgb(91,97,183);
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    height: 48px;
+    width: 130px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(91,97,183);
+    transition: ease-in;
+    margin: 15px;
+}
+
+.nav-link-button:hover {
+    background-color: rgb(91,97,183);
+    color: black;
+}
+
+
+
+
+.emphasis {
+    color: rgb(91,97,183);
+    margin-right: 3px;
+}
+
+.emphasis-two {
+    color: rgb(0,219,234);
+}
+
+.featured-work-container {
+    width: 30vw;
+    height: 20vh;
+    margin: 0px 0px 0px 210px;
+    padding: 10px;
+}
+
+.logo-container {
+    width: 350px;
+    height: 300px;
+    margin: 40px;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+
+
+.think-beyond {
+    color: rgb(91,97,183);
+    font-weight: light;
+}
+
+.featured-content {
+    font-family: 'Slabo 27px', serif;
+}
+
+
+
