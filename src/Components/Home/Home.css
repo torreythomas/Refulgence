@@ -10,3 +10,227 @@
   height: 120vh;
 }
 
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .about-text {
+    width: 60vw;
+    font-size: 10px;
+    }
+
+
+
+    .about-desc-text{
+      font-size: 20px;
+    }
+.text-box-wa {
+  margin-left: -300px;
+  text-align: center;
+  padding: 20px;
+}
+    .WA-container {
+      width: 320px;
+    }
+
+  #contact-us {
+    display: none;
+  }
+    
+.hero-message-container {
+  height: 50px;
+}
+
+
+.slogan{
+  font-size: 25px;
+  width: 50vw;
+}
+
+.brilliance{
+margin-top: 20px;
+}
+
+.slogan-about {
+  font-size: 20px;
+}
+
+
+.slide-img {
+  height: 300px;
+  width: 300px;
+}
+
+.WA-logo {
+  margin-left: -80px;
+  margin-top: -15px;
+  width: 300px;
+  padding: 5px;
+}
+
+.desc-text{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: -30px;
+  width: 80vw;
+}
+.hide-button {
+    display: none;
+  }
+
+
+  .think-beyond {
+    margin-left: -200px;
+    margin-top: -30px;
+  }
+
+
+  .featured-content {
+    margin-left: -200px;
+    margin-top: -10px;
+  }
+
+
+
+  iframe {
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+  }
+
+  .footer-terms-and-conditions {
+    font-size: 5px;
+    margin-top: 5px;
+    
+  }
+
+  .about-lg-container {
+   display: none;
+  }
+
+  .hero-message-container-about-FC{
+   font-size: 10px;
+  }
+
+  .slogan-about-FC {
+    font-size: 15px;
+  }
+
+
+  .wa-description {
+    font-size:10px;
+  }
+
+
+
+  .wa-h2{
+      
+  padding: 20px;
+  }
+  .desc-container {
+    display: none;
+  }
+
+.my-cols{ 
+  width: 100px;
+  height: 100px;
+}
+
+.icon-col {
+  font-size: 10px;
+  width: 20px;
+
+}
+
+.icon-row{
+  width: 200px;
+}
+
+.icon-container {
+  margin-top: -30px;
+  padding: 30px;
+}
+
+.jt-row {
+  visibility: hidden;
+}
+
+
+
+}
+
+@media only screen and (min-width: 650px) {
+
+  .desc-text{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 40vw;
+  }
+  .jt-row {
+ visibility: visible;
+  }
+  
+
+
+  .about-text {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 70vw;
+  }
+  
+
+
+  .footer-company-info {
+    font-size: 12px;
+    margin-top: -370px;
+  }
+}
+
+.hide-button {
+  display:none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 350px) {
+.about-text{
+  font-size: 6px;
+}
+
+
+.nav-link-button {
+  display: none;
+}
+
+.footer-container{
+  display: none;
+}
+
+.nav-button-text-align{
+ width: 10px;
+ margin-left: 10px;
+}
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .footer-company-info {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  .desc-container {
+    margin-left: 50px;
+  }
+ 
+ 
+}

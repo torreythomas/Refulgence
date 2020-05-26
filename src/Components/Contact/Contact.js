@@ -9,7 +9,7 @@ const Contact = () => {
         <div>
         <div className="contact-background-container">
         <Navbar />
-        <div  className="contact-header">
+        <div id="smallerText" className="contact-header">
         <h1> Send Us An Email </h1>
         </div>
         <div className=" contact-subtext flex justify-center">

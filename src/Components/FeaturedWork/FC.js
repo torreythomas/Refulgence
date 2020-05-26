@@ -9,60 +9,70 @@ const FC = ()  => {
     return (
        <div className="F-container">
   <div className="row">
-    <div className="col  col-sm-10">  
+    <div className="col col-sm-10">  
     <iframe  title="john-fish" width="1200" height="700" src="https://www.youtube.com/embed/KGFPry6eL0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div className="col col-sm-12 fc-sm">  
-    <hr />
+    <hr className="hide-button" />
+    <div className="desc-container">
    <p className="wa-description "> John Fish: A Junior at Harvard University with an amazing outlook on making learning fun and how it can change the lives of young people.</p>
        <h2> Learning for Fun Could Change your Life forever </h2>
+       </div>
     </div>
   </div>
   
   <div className="row">
-    <div className="col grow  AF hide-child ">
+    <div className="col grow my-cols  AF hide-child ">
     </div>
 
 
 
 
-    <div className="col grow  AF2">
+    <div className="col grow my-cols  AF2">
     </div>
     </div>
 
     <div className="row">
     <div className="col-sm-6">
-    <hr />
+    <hr className="hide-button" />
+    <div className="desc-container">
         <p className="wa-description"> We are lead by a passion to learn anf grow as individuals </p>
-        <h2> - Passion - </h2>
+        <h2 className="wa-h2"> - Passion - </h2>
+        </div>
     </div>
 
 
 
     
     <div className="col-sm-6">
-    <hr />
+    <hr  className="hide-button"/>
+    <div className="desc-container">
     <p className="wa-description"> We love literature. There's nothing better than the smell of that fresh new book smell </p>
-        <h2>  - Literature - </h2>
+        <h2 className="wa-h2">  - Literature - </h2>
+        </div>
     </div>
     </div>
 
     <div className="row">
-    <div className="col grow  AF3 ">
+    <div className="col grow my-cols  AF3 ">
     </div>
-    <div className="col grow  AF4 ">
+    <div className="col grow my-cols   AF4 ">
     </div>
   </div>
   <div className="row">
     <div className="col-sm-6">
-    <hr />
+    <hr className="hide-button" />
+    <div className="desc-container">
         <p className="wa-description"> We believe a full mind makes a fine individual </p>
-        <h2> - Enrich your brain -</h2>
+        <h2 className="wa-h2">  - Enrich your brain -</h2>
+        </div>
     </div>
     <div className="col-sm-6">
-    <hr />
+    <hr  className="hide-button"/>
+    <div className="desc-container">
     <p className="wa-description"> We won't diminish the importance of learning from reliable sources, we hate fakes too. </p>
-        <h2> - Real Knowledge - </h2>
+        <h2 className="wa-h2"> - Real Knowledge - </h2>
+        </div>
     </div>
     </div>
 
@@ -83,7 +93,7 @@ const FC = ()  => {
           <h1 className="featured-content"> Start learning with the best  </h1>
       </div>
       
-      <div className="container">
+      <div className="container icon-container">
   <div className="row icon-row">
     <div className="icon-col grow col-sm-2"><i className="fab fa-apple"></i></div>
     <div className="icon-col grow col-sm-2"><i className="fab fa-angular"></i></div>
@@ -103,7 +113,7 @@ const FC = ()  => {
   </div>
   </div>
 
-  <div className="container jt-container">
+  <div className="container hide-button jt-container">
   <div className="jt-row row">
     <div className="col br3  grow jt-col">
 <Link  style={{

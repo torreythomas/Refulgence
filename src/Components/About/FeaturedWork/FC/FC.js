@@ -19,12 +19,13 @@ const FC = ()  => {
     <div className="hero-message-container-about-FC">
         <h4 className="sub-slogan-about-FC  "> TEAM  </h4>
         <h1 className="slogan-about-FC animate__animated animate__fadeIn"> A culture of growth  </h1>
-
+<div className="about-text-container">
 <p className="about-text-FC"> We are a diverse team of individuals seeking to reach one solitary goal: to make learning enjoyable and encouraged to all. We like cars and lavish vacations just as much as the next 20 year-old, but we understand the importance of establishing a love for learning and health, and the rest will follow. We developed a sense of comraderie and confidence within our team by fostering an atmosphere of encouraged hardwork. Do you think you belong on our team? We have a place for you. </p>
-<Link className="nav-link-button nav-link  grow " to="/contact"> 
+</div>
+<Link className="nav-link-button nav-link hide-button grow " to="/contact"> 
 <p 
 style={{color:"rgb(91,97,191)"}}
-className="nav-button-text-align"> Join Us </p>
+className="nav-button-text-align  hide-button "> Join Us </p>
 </Link>
 </div>
 </div>
@@ -68,10 +69,11 @@ className="nav-button-text-align"> Join Us </p>
     <div className="hero-message-container-about-FC">
         <h4 className="sub-slogan-about-FC  "> FOR THE YOUTH </h4>
         <h1 className="slogan-about-FC animate__animated animate__fadeIn"> We know our audience  </h1>
-
+        <div className="about-text-container">
 <p className="about-text-FC"> We are proud of what we do at Refulgence and we truly believe what we stand for. We believe that learing isn't just something to do as a chore or paiful experience, but we believe that learning is the crux on which personal fulfillment and overall growth stem. We commit to helping others realize this and reach their full brilliant potential as well. </p>
 <p className="about-text-FC"> We are always looking out for new things to learn, which is why we know that each day will be better than the last. </p>
-<Link className="nav-link-button nav-link  grow " to="/resources"> 
+</div>
+<Link className="nav-link-button hide-button nav-link  hide-button grow " to="/resources"> 
 <p 
 style={{color:"rgb(91,97,191)"}}
 className="nav-button-text-align"> Resources </p>

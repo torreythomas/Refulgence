@@ -27,7 +27,6 @@ return (
 <li class="nav-item">
 
  <Link
-  style={{ marginTop:"-5px"}}
   className="nav-link-button nav-link grow " to="/contact"> 
 <p className="nav-button-text-align"> Contact </p>
 </Link>
