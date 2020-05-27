@@ -323,4 +323,24 @@ visibility: hidden;
         font-size: 40px;
         width: 100px;
     }
+
+    .about-lg-container {
+        display: none;
+    }
+    .about-text-FC{
+        width: 60vw;
+        height: 100px;
+        margin-left: 80px;
+    }
+
+.slogan-about-FC{
+    width: 60vw;
+    height: 100px;
+}
+
+    .container-pushed-left-FC {
+        display: flex;
+        justify-content: flex-start;
+        padding: 4px;
+    }
   }
